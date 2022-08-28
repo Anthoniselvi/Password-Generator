@@ -31,7 +31,7 @@ p{
     color: rgb(179, 170, 170);
     font-size: 20px;
 }
-.generate-btn{
+#generatePassword{
     padding: 10px;
     width: 250px;
     border-radius: 5px;
@@ -43,16 +43,13 @@ p{
     cursor: pointer;
     margin-bottom: 20px;
 }
-.generate:hover{
-    background-color: blue;
-}
 .display-btn{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
 }
-.pass-btn-1, .pass-btn-2{
+.pass-btn{
     width: 290px;
     height: 20px;
     border: 1px white;
